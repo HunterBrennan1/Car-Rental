@@ -5,3 +5,39 @@
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+ nav.navbar{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  background-color: #fefefe !important;
+  padding-top:30px;
+}
+
+.user-login-container{
+  gap:10px;
+  display: flex;
+}
+
+.sign-in-btn{
+  border:none;
+  background-color: transparent;
+  padding:10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.register-btn{
+  border:none;
+  background-color: #ef233c;
+  padding:10px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fefefe;
+  box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+}

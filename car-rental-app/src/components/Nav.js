@@ -19,6 +19,10 @@ export const NavBar = () => {
             <Nav.Link href="#team">Our Team</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
+          <div className='user-login-container'>
+            <button className='sign-in-btn'>Sign In</button>
+            <button className='register-btn'>Register</button>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
