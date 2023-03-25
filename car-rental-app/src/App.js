@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
-import Nav from './components/Nav';
+import NavBar from './components/Nav.js';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <NavBar />
     </div>
   );
 }
