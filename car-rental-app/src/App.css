@@ -4,6 +4,8 @@
 .logo-dark{
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  height:25px;
 }
 
  nav.navbar{
@@ -15,6 +17,23 @@
   display: flex !important;
   justify-content: center !important;
   align-items: center;
+}
+
+.logo-container{
+  display:flex;
+  flex-direction: row;
+  gap:8px;
+  margin-right:30px;
+}
+
+.car-logo{
+  width:40px;
+}
+
+.navbar-brand{
+  display: flex;
+  flex-direction: column;
+  height:60px;
 }
 
 .user-login-container{
@@ -48,4 +67,72 @@
 .nav-link{
   font-weight:bold;
   color:#000;
+}
+
+.main-row{
+  margin-top:150px;
+}
+
+.main-info-col{
+  max-width: 450px;
+}
+
+.main-header-h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.main-header-h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.main-header-info-text{
+  margin-bottom: 30px;
+  color:gray;
+  font-weight: 500;
+}
+
+.big-span{
+  color:#ef233c;
+}
+
+.main-btn{
+  border:none;
+  margin-right:15px;
+  margin-top:15px;
+  padding:13px;
+  padding-left:25px;
+  padding-right:25px;
+  border-radius: 3px;
+  box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+font-weight: bold;
+color:#fefefe;
+}
+
+.book-rides-btn{
+  background-color: #ef233c;
+}
+
+.learn-more-btn{
+  background-color: #000;
+}
+
+.check-mark{
+  width:14px;
+  color:white;
+  margin-left:10px;
+}
+
+.learn-arrow{
+  width:15px;
+  margin-left:10px;
+}
+
+.red-car-main-img{
+  width:100%;
 }

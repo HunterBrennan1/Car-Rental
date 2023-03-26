@@ -3,13 +3,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from 'react';
+import CarLogo from '../assets/img/car-logo.svg';
 
 
 export const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home"><span className='logo-dark'>Car</span> Rental</Navbar.Brand>
+        <div className='logo-container'>
+          <img className='car-logo' src={CarLogo}></img>
+          <Navbar.Brand href="#home"><span className='logo-dark'>Car</span> Rental</Navbar.Brand>
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
