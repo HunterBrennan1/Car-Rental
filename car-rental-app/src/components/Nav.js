@@ -4,7 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from 'react';
 import CarLogo from '../assets/img/car-logo.svg';
-import LoginSignup from './login-signup.js';
+import Signup from './signup.js';
+import Login from './SignIn.js';
 
 
 export const NavBar = () => {
@@ -26,8 +27,8 @@ export const NavBar = () => {
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           <div className='user-login-container'>
-            <button className='sign-in-btn'>Sign In</button>
-            <LoginSignup />
+            <Login />
+            <Signup />
           </div>
         </Navbar.Collapse>
       </Container>

@@ -68,9 +68,65 @@
   background-color: #da2e42;
 }
 
+/* //////////////////////////////// */
+/* sign in and register modal styling */
+/* //////////////////////////////// */
+
+.modal-content{
+  padding:15px;
+}
+
+.modal-login-signup-form{
+  margin-bottom:10px;
+  border-radius: 3px;
+}
+
+.modal-bottom-btn{
+  width:100%;
+  background-color: #ef233c;
+  border:none;
+  border-radius: 3px;
+  box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+font-weight: bold;
+}
+
+.benefits-span{
+  color:#ef233c
+}
+
+
+
 .nav-link{
-  font-weight:bold;
+  font-weight:bold !important;
   color:#000;
+}
+
+.signin-btn-modal{
+  background-color: transparent;
+  color:#000;
+  border:none;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-top:8px;
+}
+
+.signin-btn-modal:hover{
+  background-color: transparent;
+  color:#000;
+}
+
+.signin-btn-modal:active{
+  background-color: transparent;
+  color:#000;
+}
+
+.forgot-password{
+  text-decoration: none;
+  color:#000;
+  font-weight: 500;
+  text-align: center;
 }
 
 .main-row{

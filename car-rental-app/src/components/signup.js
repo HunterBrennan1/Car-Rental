@@ -7,7 +7,7 @@ import { useRef } from 'react';
 
 
 
-function LoginSignup() {
+function Signup() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -41,9 +41,9 @@ function LoginSignup() {
     <>
 
       <section className='login-btn-container-nav'>
-        <Button variant="primary register-btn" onClick={handleShow}>
+        <button className="register-btn" onClick={handleShow}>
           Register
-        </Button>
+        </button>
 
         <Modal
           show={show}
@@ -56,52 +56,13 @@ function LoginSignup() {
             <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
           </div>
           <div className='signup-info'>
-            <h2>YOUR DAY DREAM CLUB BENEFITS AWAIT!</h2>
+            <h2>YOUR CAR RENTAL CLUB <span className='benefits-span'>BENEFITS</span> AWAIT!</h2>
           </div>
           <div className='signup-discount'>
-            <p>Sign up now and get 10% off on select products!</p>
+            <p>Sign up now and get 10% off on select vehicles!</p>
           </div>
 
           <div className='modal-login-signup-form-container'>
-            <div>
-              <Modal.Header>
-                <Modal.Title>LOGIN</Modal.Title>
-
-              </Modal.Header>
-              <Modal.Body>
-                <Form onSubmit={handleSubmit} className="d-flex">
-                  <Form.Control
-                    type="text"
-                    id="username"
-                    ref={userRef}
-                    autoComplete="off"
-                    onChange={(e) => setUser(e.target.value)}
-                    value={user}
-                    required
-                    label="username"
-                    placeholder="Email"
-                    className="me-2 modal-login-signup-form "
-                    aria-label="email"
-                  />
-                </Form>
-                <Form className="d-flex">
-                  <Form.Control
-                    type="password"
-                    id="password"
-                    autoComplete="off"
-                    onChange={(e) => setPwd(e.target.value)}
-                    value={pwd}
-                    required
-                    placeholder="Password"
-                    className="me-2 modal-login-signup-form "
-                    aria-label="Search"
-                  />
-                </Form>
-              </Modal.Body>
-              <Modal.Footer>
-                <Button variant="primary modal-bottom-btn" type="submit">SUBMIT</Button>
-              </Modal.Footer>
-            </div>
             <div>
               <Modal.Header closeButton>
                 <Modal.Title className='signup-title-modal'>SIGN UP</Modal.Title>
@@ -126,12 +87,9 @@ function LoginSignup() {
                 </Form>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="primary modal-bottom-btn" type="submit">SUBMIT</Button>
+                <Button variant="primary modal-bottom-btn" type="submit">REGISTER</Button>
               </Modal.Footer>
             </div>
-          </div>
-          <div className='forgot-password'>
-            <a href="#">Forgot your password?</a>
           </div>
         </Modal>
       </section>
@@ -139,4 +97,4 @@ function LoginSignup() {
   );
 }
 
-export default LoginSignup;
+export default Signup;

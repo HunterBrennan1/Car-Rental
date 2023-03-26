@@ -7,7 +7,7 @@ import CalendarIcon from '../assets/img/calendar-icon.svg';
 
 export const Rental = () => {
   return (
-    <section className="rental-section">
+    <section className="rental-section" id="book">
       <Container>
         <Row>
           <Col>
@@ -46,7 +46,7 @@ export const Rental = () => {
                   </select>
                 </div>
                 <div>
-                  <h4 className="rental-form-title"><img className="rental-icons" src={CalendarIcon}></img>Drop-Off Date</h4>
+                  <h4 className="rental-form-title"><img id="book" className="rental-icons" src={CalendarIcon}></img>Drop-Off Date</h4>
                   <input type="date" name="type" className="rental-form-input" placeholder="Select your car type"></input>
                 </div>
               </div>
