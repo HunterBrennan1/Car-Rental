@@ -358,4 +358,13 @@ color:#fefefe;
     margin-right:0px;
     margin-left:0px;
   }
+
+  .bubbles-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bubble{
+    width:80%;
+  }
 }
