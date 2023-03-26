@@ -240,4 +240,14 @@ color:#fefefe;
   .rental-form{
     width:100%;
   }
+
+  .nav-link{
+    width:100%;
+    text-align: left;
+  }
+
+  .rental-section{
+    margin-right:0px;
+    margin-left:0px;
+  }
 }
