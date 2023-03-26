@@ -7,11 +7,14 @@
 }
 
  nav.navbar{
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center;
   background-color: #fefefe !important;
   padding-top:30px;
+}
+
+.basic-navbar-nav{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
 }
 
 .user-login-container{
@@ -40,4 +43,9 @@
   box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
 -webkit-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
 -moz-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+}
+
+.nav-link{
+  font-weight:bold;
+  color:#000;
 }
