@@ -136,3 +136,108 @@ color:#fefefe;
 .red-car-main-img{
   width:100%;
 }
+
+.navbar-toggler{
+  border:none;
+}
+
+.navbar-toggler-icon{
+  background-color: transparent;
+}
+
+/* car booking section */
+
+.rental-section{
+  margin-top: 250px;
+  margin-bottom: 250px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.car-booking-title{
+  font-weight: bold;
+}
+
+.rental-col {
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  gap:15px;
+}
+
+.rental-row{
+  display: flex;
+  flex-direction: column;
+}
+
+.rental-form-container{
+  width:33%;
+}
+
+.rental-form-title{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.rental-form{
+  width:33%;
+}
+
+.rental-form-input{
+  width:100%;
+  border-color: #f5f5f5;
+  border-style: solid;
+  padding:5px;
+  border-radius: 5px;
+  color:gray;
+}
+
+.search-rental-btn{
+  margin-top:55px;
+  border:none;
+  background-color: #ef233c;
+  color:#fefefe;
+  font-size: 20px;
+  font-weight: bold;
+  width:100%;
+  padding:5px;
+  border-radius: 3px;
+  box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+}
+
+.rental-icons{
+  margin-right:10px;
+  width:20px;
+}
+
+/* mobile collapsed */
+
+@media screen and (max-width:990px){
+  .red-car-main-img{
+    display:none;
+  }
+
+  .main-img-container{
+    display:none;
+  }
+
+  .main-row{
+    justify-content: center;
+  }
+
+  .main-btn-container{
+    text-align: center;
+  }
+
+  .rental-col{
+    flex-direction: column;
+  }
+
+  .rental-form{
+    width:100%;
+  }
+}

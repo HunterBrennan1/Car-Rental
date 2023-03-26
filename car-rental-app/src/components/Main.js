@@ -18,7 +18,7 @@ export const MainPage = () => {
               <button className="learn-more-btn main-btn">Learn More <img className="learn-arrow" src={Arrow}></img></button>
             </div>
           </Col>
-          <Col>
+          <Col className="main-img-container">
             <img className="red-car-main-img" src={RedCar}></img>
           </Col>
         </Row>
