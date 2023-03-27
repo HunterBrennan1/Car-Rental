@@ -431,6 +431,32 @@ color:#fefefe;
   font-size: 30px;
 }
 
+/* /////////////////////////// */
+/* break point section  */
+/* /////////////////////////// */
+
+.breakpoint-section{
+  background-color: #000;
+  margin-top:250px;
+  color:#fff;
+  padding:50px;
+  text-align: center;
+}
+
+.breakpoint-title{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.breakpoint-title2{
+  font-size: 22px;
+  margin-top:20px;
+}
+
+.bp-title2-span{
+  color:#ef233c;
+}
+
 /* mobile collapsed */
 
 @media screen and (max-width:990px){
