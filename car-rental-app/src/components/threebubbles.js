@@ -6,7 +6,7 @@ import DriveIcon from "../assets/img/drive-icon.svg"
 
 export const ThreeBubbles = () => {
   return (
-    <section>
+    <section className="bubbles-section">
       <Container>
         <Row>
           <Col>

@@ -278,6 +278,11 @@ color:#fefefe;
 /* bubbles section  */
 /* //////////////////////////// */
 
+.bubbles-section{
+  /* margin-top:250px; */
+  margin-bottom:250px;
+}
+
 .bubbles-section-title{
   font-size: 25px;
   text-align: center;

@@ -4,6 +4,7 @@ import NavBar from './components/Nav.js';
 import MainPage from './components/Main.js';
 import Rental from './components/Rental.js';
 import ThreeBubbles from "./components/threebubbles";
+import Models from "./components/models";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <MainPage />
       <Rental />
       <ThreeBubbles />
+      <Models />
     </div>
   );
 }
