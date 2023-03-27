@@ -5,6 +5,7 @@ import MainPage from './components/Main.js';
 import Rental from './components/Rental.js';
 import ThreeBubbles from "./components/threebubbles";
 import Models from "./components/models";
+import BreakPoint from "./components/breakpoint";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Rental />
       <ThreeBubbles />
       <Models />
+      <BreakPoint />
     </div>
   );
 }
