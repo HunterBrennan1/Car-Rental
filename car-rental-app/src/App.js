@@ -9,6 +9,7 @@ import BreakPoint from "./components/breakpoint";
 import Package from "./components/package";
 import Reviews from "./components/reviews";
 import FAQ from "./components/faq";
+import AppStore from "./components/mobile-app";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Package />
       <Reviews />
       <FAQ />
+      <AppStore />
     </div>
   );
 }

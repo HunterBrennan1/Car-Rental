@@ -754,7 +754,49 @@ color:#fefefe;
 }
 
 
+/* ////////////////////////// */
+/* Appstore section  */
+/* ///////////////////////// */
 
+.appstore-section{
+  margin-top:250px;
+  display:flex;
+  flex-direction: row;
+}
+
+.phone-img {
+  /* border-radius: 100%; */
+}
+
+.app-info-container{
+  display: flex;
+  flex-direction: column;
+  width:45%;
+}
+
+.phone-img-container{
+  width:45%;
+}
+
+.google-img{
+  align-items: center;
+}
+
+.app-wrapper{
+  display:flex;
+  flex-direction: row;
+  gap:10%;
+}
+
+.app-title{
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.app-text{
+  font-size: 18px;
+}
 
 
 /* mobile collapsed */
@@ -901,5 +943,31 @@ color:#fefefe;
 
   .arrow-img{
     padding-top:15px;
+  }
+
+  .app-wrapper{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .app-info-container{
+    width:100%;
+  }
+
+  .phone-img-container{
+    width:50%;
+    display:none;
+  }
+
+  .phone-img{
+    width:100%;
+  }
+
+  .google-img-l{
+    width:100%;
+  }
+
+  .appstore-section{
+    margin-top:150px;
   }
 }
