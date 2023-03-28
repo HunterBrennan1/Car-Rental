@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import React from 'react';
 import Arrow from '../assets/img/downarrow.svg'
 import { useState } from "react";
+import MiniCoop from "../assets/img/minicoop.png"
 
 
 function FAQ() {
@@ -31,14 +32,16 @@ function FAQ() {
                 {data.map((item, i) => (
                   <div className="item">
                     <div className="title" onClick={() => toggle(i)}>
-                      <h2 className="question-title">{item.question}</h2>
-                      <img src={Arrow}></img>
+                      <button className="question-title">{item.question}<img src={Arrow} className="arrow-img"></img></button>
+
                     </div>
                     <div className={selected === i ? 'content show' : 'content'}>{item.answer}</div>
                   </div>
                 ))}
               </div>
+
             </div>
+            <div className="mini-coop-img-container"></div>
           </Col>
         </Row>
       </Container>
