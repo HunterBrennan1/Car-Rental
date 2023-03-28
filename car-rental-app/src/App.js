@@ -7,6 +7,7 @@ import ThreeBubbles from "./components/threebubbles";
 import Models from "./components/models";
 import BreakPoint from "./components/breakpoint";
 import Package from "./components/package";
+import Reviews from "./components/reviews";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Models />
       <BreakPoint />
       <Package />
+      <Reviews />
     </div>
   );
 }

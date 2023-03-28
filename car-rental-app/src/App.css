@@ -549,6 +549,28 @@ color:#fefefe;
   
 }
 
+.review-title-container{
+  text-align: center;
+  /* width:75%; */
+}
+
+.review-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.review-title2{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.review-text{
+  font-size: 15px;
+  padding-left: 350px;
+  padding-right: 350px;
+  
+}
+
 /* mobile collapsed */
 
 @media screen and (max-width:990px){
@@ -656,5 +678,13 @@ color:#fefefe;
   .side-info-img{
     margin-right:0px;
     margin-bottom:30px;
+  }
+
+  .breakpoint-title{
+    font-size: 30px;
+  }
+
+  .breakpoint-title2{
+    font-size: 18px;
   }
 }
