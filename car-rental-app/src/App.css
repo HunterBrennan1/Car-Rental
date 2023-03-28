@@ -592,22 +592,25 @@ color:#fefefe;
 .review-box{
   padding-left:50px;
   padding-right:50px;
+  width:100%;
 }
 
 .review-container{
-  width:40%;
+  width:100%;
 }
 
 .review-img{
   width:45px;
   height:100%;
   margin-right:15px;
+  border-radius: 50px;
 }
 
 .review-profile-container{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 .profile-img-name-location{
@@ -624,6 +627,13 @@ color:#fefefe;
 
 .profile-review-location{
   font-size: 15px;
+}
+
+.reviews{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:10%;
 }
 
 
