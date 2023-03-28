@@ -477,6 +477,8 @@ color:#fefefe;
   display: flex;
   flex-direction: row;
   margin-top:75px;
+  justify-content: space-between;
+  gap:200px;
 }
 
 .package-side-info-container{
@@ -500,6 +502,7 @@ color:#fefefe;
   width:100%;
   margin-right:20px;
   padding:15px;
+  padding-left:50px;
 }
 
 .package-title{
@@ -525,7 +528,8 @@ color:#fefefe;
 
 .info-text{
   font-size:15px;
-  width:85%;
+  width:100%;
+  margin-top:20px;
 }
 
 .info-btn{
@@ -549,6 +553,14 @@ color:#fefefe;
   
 }
 
+/* ///////////////////////////// */
+/* review section  */
+/* ///////////////////////////// */
+
+.review-section{
+  margin-top:200px;
+}
+
 .review-title-container{
   text-align: center;
   /* width:75%; */
@@ -566,10 +578,54 @@ color:#fefefe;
 
 .review-text{
   font-size: 15px;
-  padding-left: 350px;
-  padding-right: 350px;
-  
+  padding-left: 335px;
+  padding-right: 335px;
+  margin-bottom: 100px;
 }
+
+.review{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+
+.review-box{
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.review-container{
+  width:40%;
+}
+
+.review-img{
+  width:45px;
+  height:100%;
+  margin-right:15px;
+}
+
+.review-profile-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-img-name-location{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-review-name{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+
+}
+
+.profile-review-location{
+  font-size: 15px;
+}
+
 
 /* mobile collapsed */
 
