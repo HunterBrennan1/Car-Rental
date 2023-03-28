@@ -41,7 +41,7 @@ export const Reviews = () => {
               </div>
               <div className="review-box">
                 <div className="review-container">
-                  <p className="review">"We rented a car from this website and had an amazin experience! The booking was easy and the rental rates were very affordable."</p>
+                  <p className="review">"The car was in great condition and made our trip even better. Highly recommend renting from this dealer!</p>
                   <div className="review-profile-container">
                     <div className="profile-img-name-location">
                       <div>

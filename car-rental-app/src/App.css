@@ -636,6 +636,42 @@ color:#fefefe;
   gap:5%;
 }
 
+/* ////////////////////////// */
+/* FAQ section  */
+/* ///////////////////////// */
+
+.faq-section{
+  margin-top:250px;
+  margin-left:250px;
+  margin-right:250px;
+}
+
+.faq-header{
+  text-align: center;
+}
+
+.faq-header-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.faq-header-title2{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.faq-header-text{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.wrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 /* mobile collapsed */
 

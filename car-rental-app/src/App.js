@@ -8,6 +8,7 @@ import Models from "./components/models";
 import BreakPoint from "./components/breakpoint";
 import Package from "./components/package";
 import Reviews from "./components/reviews";
+import FAQ from "./components/faq";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <BreakPoint />
       <Package />
       <Reviews />
+      <FAQ />
     </div>
   );
 }
