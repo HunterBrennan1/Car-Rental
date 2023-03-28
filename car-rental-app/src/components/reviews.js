@@ -2,7 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import React from 'react';
 import Coin from "../assets/img/iconmonstr-coin-2.svg"
 import Quote from "../assets/img/quote.svg";
-import Profile1 from "../assets/img/profile1.jpeg"
+import Profile1 from "../assets/img/profile1.png"
+import Profile2 from "../assets/img/profile2.webp"
 
 
 export const Reviews = () => {
@@ -44,11 +45,11 @@ export const Reviews = () => {
                   <div className="review-profile-container">
                     <div className="profile-img-name-location">
                       <div>
-                        <img src={Profile1} className="review-img"></img>
+                        <img src={Profile2} className="review-img"></img>
                       </div>
                       <div className="review-owner-container">
-                        <h3 className="profile-review-name">Ivan Mata</h3>
-                        <h4 className="profile-review-location">California</h4>
+                        <h3 className="profile-review-name">Jonathan Limon</h3>
+                        <h4 className="profile-review-location">New Jersey</h4>
                       </div>
                     </div>
                     <div>

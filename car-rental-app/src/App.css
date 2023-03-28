@@ -603,7 +603,7 @@ color:#fefefe;
   width:45px;
   height:100%;
   margin-right:15px;
-  border-radius: 50px;
+  border-radius: 100px;
 }
 
 .review-profile-container{
@@ -633,7 +633,7 @@ color:#fefefe;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap:10%;
+  gap:5%;
 }
 
 
@@ -721,6 +721,7 @@ color:#fefefe;
     /* margin:30px; */
     /* padding-left: 20%; */
     text-align: center;
+    padding-left:15px;
   }
 
   .info-title2{
@@ -752,5 +753,14 @@ color:#fefefe;
 
   .breakpoint-title2{
     font-size: 18px;
+  }
+
+  .review-text{
+    padding:15px;
+  }
+
+  .reviews{
+    flex-direction: column;
+    gap:100px;
   }
 }
