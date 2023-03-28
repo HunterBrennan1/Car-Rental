@@ -10,6 +10,7 @@ import Package from "./components/package";
 import Reviews from "./components/reviews";
 import FAQ from "./components/faq";
 import AppStore from "./components/mobile-app";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Reviews />
       <FAQ />
       <AppStore />
+      <Footer />
     </div>
   );
 }

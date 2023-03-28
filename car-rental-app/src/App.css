@@ -798,6 +798,56 @@ color:#fefefe;
   font-size: 18px;
 }
 
+/* ////////////////////////// */
+/* Footer section  */
+/* ///////////////////////// */
+
+.footer-section{
+  margin-top:50px;
+  margin-bottom: 70px;
+}
+
+.footer-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap:5%;
+}
+
+.footer-info-container{
+  width:20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-icon{
+  margin-right: 10px;
+}
+
+.footer-submit-btn{
+  margin-top:20px;
+  border:none;
+  background-color: #ef233c;
+  color: #fff;
+  padding:13px;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
+}
+
+.footer-input{
+  padding:10px;
+  border:none;
+  text-align: center;
+}
+
 
 /* mobile collapsed */
 
@@ -969,5 +1019,14 @@ color:#fefefe;
 
   .appstore-section{
     margin-top:150px;
+  }
+
+  .footer-wrapper{
+    flex-direction: column;
+  }
+
+  .footer-info-container{
+    width:100%;
+    text-align: left;
   }
 }
