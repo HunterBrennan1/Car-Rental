@@ -1,8 +1,21 @@
 import { Container, Row, Col } from "react-bootstrap";
 import React from 'react';
+import Arrow from '../assets/img/downarrow.svg'
+import { useState } from "react";
 
 
-export const FAQ = () => {
+function FAQ() {
+
+  const [selected, setSelected] = useState(null)
+
+  const toggle = (i) => {
+    if (selected == i) {
+      return setSelected(null)
+    }
+
+    setSelected(i)
+  }
+
   return (
     <section className="faq-section">
       <Container>
@@ -17,10 +30,11 @@ export const FAQ = () => {
               <div className="accordion">
                 {data.map((item, i) => (
                   <div className="item">
-                    <div className="title">
-                      <h2>{item.question}</h2>
+                    <div className="title" onClick={() => toggle(i)}>
+                      <h2 className="question-title">{item.question}</h2>
+                      <img src={Arrow}></img>
                     </div>
-                    <div className="content">{item.answer}</div>
+                    <div className={selected === i ? 'content show' : 'content'}>{item.answer}</div>
                   </div>
                 ))}
               </div>

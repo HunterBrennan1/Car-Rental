@@ -681,12 +681,38 @@ color:#fefefe;
   padding:15px;
 }
 
-.item:focus{
+.question-title:focus{
   background-color: #ef233c;
 }
 
 .title{
-  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.question-title{
+  font-size: 17px;
+  font-weight: bold;
+  padding:15px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.content{
+  color:gray;
+  padding-left:20px;
+  padding-right:20px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+  height:auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
 }
 
 
