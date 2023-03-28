@@ -671,6 +671,24 @@ color:#fefefe;
   align-items: center;
 }
 
+.accordion{
+  width:60%;
+}
+
+.item{
+  background-color: #fff;
+  margin-bottom:5px;
+  padding:15px;
+}
+
+.item:focus{
+  background-color: #ef233c;
+}
+
+.title{
+  font-size: 20px;
+}
+
 
 
 /* mobile collapsed */
