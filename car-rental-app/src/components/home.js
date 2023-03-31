@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import MainPage from './Main';
 import Rental from './Rental';
-import ThreeBubbles from "./Rental";
+import ThreeBubbles from "./threebubbles";
 import Models from "./models";
 import BreakPoint from "./breakpoint";
 import Package from "./package";
@@ -15,7 +15,7 @@ export const Home = () => {
   return (
     <div>
       <MainPage />
-      {/* <Rental /> */}
+      <Rental />
       <ThreeBubbles />
       <Models />
       <BreakPoint />
