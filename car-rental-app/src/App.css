@@ -232,6 +232,7 @@ color:#fefefe;
 
 .rental-section{
   background-image: url(./assets/img/rentalbgimg.png);
+  /* background: linear-gradient(180deg,#f8f8f8 20%,#fff 80%); */
   background-color: #fff;
   margin-top: 200px;
   margin-bottom: 53px;
@@ -355,11 +356,13 @@ color:#fefefe;
 }
 
 .bubble-text{
-  font-size: 18px;
+  font-size: 16px;
   width:90%;
   margin:0px;
   text-align: center;
   display: inline-block;
+  color:gray;
+  font-family:Arial, Helvetica, sans-serif !important ;
 }
 
 /* /////////////////////////////// */
@@ -375,22 +378,23 @@ color:#fefefe;
 }
 
 .model-title{
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .model-title2{
-  font-size:35px;
+  font-size:42px;
   font-weight: bold;
 }
 
 .model-text{
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .model-btn-container{
   display: flex;
   flex-direction: column;
   width:20%;
+  gap:5px;
 }
 
 .model-btn{
@@ -398,8 +402,9 @@ color:#fefefe;
   background-color: transparent;
   padding:15px;
   text-align: left;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #f8f8f8;
 }
 
 .model-btn:focus{
@@ -415,16 +420,20 @@ color:#fefefe;
 .model-view-container{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height:80%;
   width:100%;
 }
 
 .model-img-container{
-  width:60%;
+  width:30rem;
+  margin-top:60px;
+  text-align: center;
 }
 
 .model-img{
   width:100%;
+  
 }
 
 .model-info-container{
@@ -869,6 +878,7 @@ color:#fefefe;
 
 .google-img{
   align-items: center;
+  cursor: pointer;
 }
 
 .app-wrapper{
@@ -972,8 +982,8 @@ color:#fefefe;
   }
 
   .rental-section{
-    margin-right:0px;
-    margin-left:0px;
+    margin-right:20px;
+    margin-left:20px;
   }
 
   .bubbles-container{
@@ -1002,6 +1012,10 @@ color:#fefefe;
     margin-top: 20px;
   }
 
+  .model-img-container{
+    width:20rem;
+  }
+
   .model-img{
     width:100%;
   }
@@ -1012,6 +1026,7 @@ color:#fefefe;
 
   .package-section-content-container{
     flex-direction: column;
+    gap:80px;
   }
 
   .package-side-info{
@@ -1057,22 +1072,35 @@ color:#fefefe;
     font-size: 18px;
   }
 
+  .review-section{
+    padding-bottom: 100px;
+  }
+
   .review-text{
     padding:15px;
   }
 
+  .review-box{
+    padding:40px;
+  }
+
   .reviews{
     flex-direction: column;
-    gap:100px;
+    gap:80px;
   }
 
   .faq-section{
     margin-left:0px;
     margin-right:0px;
+    background-image: none;
   }
   
   .accordion {
     width:100%;
+  }
+
+  .faq-header{
+    margin-bottom:80px;
   }
 
   .faq-header-text{
@@ -1108,7 +1136,7 @@ color:#fefefe;
   }
 
   .appstore-section{
-    margin-top:150px;
+    margin-top:0px;
   }
 
   .footer-wrapper{
@@ -1117,6 +1145,10 @@ color:#fefefe;
 
   .footer-info-container{
     width:100%;
-    text-align: left;
+    text-align: center;
+  }
+
+  .bg-shape{
+    display: none;
   }
 }

@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import React from 'react';
 import Placeholder from '../assets/img/placeholder.png';
-import AudiA1 from '../assets/img/audia1s.avif';
+import AudiA1 from '../assets/img/audia1.jpg';
 import { useState } from "react";
 
 
