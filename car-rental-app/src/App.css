@@ -5,7 +5,7 @@ body{
 }
 
 button:is(:active).active{
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color:#fff;
 }
 
@@ -60,7 +60,7 @@ button:is(:active).active{
 
 .register-btn{
   border:none;
-  background-color: #ef233c;
+  background-color: #ff4d30;
   padding:10px;
   padding-left: 28px;
   padding-right: 28px;
@@ -92,7 +92,7 @@ button:is(:active).active{
 
 .modal-bottom-btn{
   width:100%;
-  background-color: #ef233c;
+  background-color: #ff4d30;
   border:none;
   border-radius: 3px;
   box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
@@ -102,7 +102,7 @@ font-weight: bold;
 }
 
 .benefits-span{
-  color:#ef233c
+  color:#ff4d30;
 }
 
 
@@ -165,7 +165,7 @@ font-weight: bold;
 }
 
 .big-span{
-  color:#ef233c;
+  color:#ff4d30;
 }
 
 .main-btn{
@@ -184,7 +184,7 @@ color:#fefefe;
 }
 
 .book-rides-btn{
-  background-color: #ef233c;
+  background-color: #ff4d30;
 }
 
 .learn-more-btn{
@@ -266,7 +266,7 @@ color:#fefefe;
 .search-rental-btn{
   margin-top:55px;
   border:none;
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color:#fefefe;
   font-size: 20px;
   font-weight: bold;
@@ -372,18 +372,20 @@ color:#fefefe;
 }
 
 .model-btn:focus{
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color:#fefefe;
 }
 .model-btn:hover{
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color:#fefefe;
 }
+
 
 .model-view-container{
   display: flex;
   flex-direction: row;
   height:80%;
+  width:100%;
 }
 
 .model-img-container{
@@ -412,7 +414,7 @@ color:#fefefe;
 
 .table-button{
   border:none;
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color: white;
   font-weight: bold;
   font-size: 23px;
@@ -427,7 +429,7 @@ color:#fefefe;
 .table-header{
   width:100%;
   font-size: 18px;
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color:#fff;
   padding:5px;
   margin:0px;
@@ -441,6 +443,25 @@ color:#fefefe;
 
 .table-header-span{
   font-size: 30px;
+}
+
+.model-wrapper{
+  display: flex;
+  flex-direction:row ;
+}
+
+.display.info{
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+.hide.info{
+  display:none;
+}
+
+.button-wrapper{
+  display: flex;
 }
 
 /* /////////////////////////// */
@@ -466,7 +487,7 @@ color:#fefefe;
 }
 
 .bp-title2-span{
-  color:#ef233c;
+  color:#ff4d30;
 }
 
 /* //////////////////// */
@@ -541,7 +562,7 @@ color:#fefefe;
   padding:13px;
   padding-right:25px;
   padding-left:25px;
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color:#fff;
   font-weight: bold;
   border: none;
@@ -688,7 +709,7 @@ color:#fefefe;
 }
 
 .title:hover{
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color:#fff;
 }
 
@@ -723,7 +744,7 @@ color:#fefefe;
 }
 
 .question-title:focus{
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color:#fff;
   border-radius: 4px;
   box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
@@ -731,7 +752,7 @@ color:#fefefe;
 -moz-box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
 }
 .question-title:hover{
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color:#fff;
   border-radius: 4px;
   box-shadow: 4px 11px 19px -7px rgba(0,0,0,0.75);
@@ -740,7 +761,7 @@ color:#fefefe;
 }
 
 .title:focus{
-  background-color: #ef233c;
+  background-color: #ff4d30;
 }
 
 .content{
@@ -837,7 +858,7 @@ color:#fefefe;
 .footer-submit-btn{
   margin-top:20px;
   border:none;
-  background-color: #ef233c;
+  background-color: #ff4d30;
   color: #fff;
   padding:13px;
   font-weight: bold;
