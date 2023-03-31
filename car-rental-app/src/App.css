@@ -32,6 +32,9 @@ button:is(:active).active{
  nav.navbar{
   background-color: transparent !important;
   padding-top:30px;
+  align-items: center !important;
+  justify-content: space-between;
+  z-index: 99999;
 }
 
 .basic-navbar-nav{
@@ -122,6 +125,11 @@ font-weight: bold;
 .nav-link{
   font-weight:bold !important;
   color:#000;
+}
+
+.nav-link:hover{
+  font-weight:bold !important;
+  color:#ff4d30;
 }
 
 .signin-btn-modal{
@@ -862,9 +870,6 @@ color:#fefefe;
   background-color: #f8f8f8;
 }
 
-.phone-img {
-  /* border-radius: 100%; */
-}
 
 .app-info-container{
   display: flex;
@@ -948,6 +953,44 @@ color:#fefefe;
   background-color: #f8f8f8;
 }
 
+
+/* //////////////////////////// */
+/* ABOUT ROUTE SECTION  */
+/* //////////////////////////// */
+
+.about-hero-section{
+  background-image: url(./assets/img/about-hero-img.png);
+    background-position: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    position: absolute;
+    top:0px;
+    width: 100%;
+}
+
+.hero-overlay{
+  background-color: hsla(0,0%,100%,.92);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.about-hero-text{
+  z-index: 100;
+  /* padding-top:0%; */
+  color:#000;
+}
+
+.hero-container{
+  z-index: 10;
+  height:100%;
+  text-align: left;
+  
+  
+}
 
 /* mobile collapsed */
 
@@ -1145,7 +1188,13 @@ color:#fefefe;
 
   .footer-info-container{
     width:100%;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .footer-text{
+    margin-bottom: 8px;
+    margin-left:4px;
   }
 
   .bg-shape{
