@@ -7,7 +7,7 @@ import Card from "../assets/img/iconmonstr-credit-card-12.svg"
 
 export const Package = () => {
   return (
-    <section>
+    <section className="package-section">
       <Container>
         <Row>
           <Col>

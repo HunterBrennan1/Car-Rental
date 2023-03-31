@@ -20,7 +20,7 @@ export const AppStore = () => {
                 </div>
               </div>
               <div className="phone-img-container">
-                <img src={Phone} class="phone-img"></img>
+                {/* <img src={Phone} class="phone-img"></img> */}
               </div>
             </div>
           </Col>

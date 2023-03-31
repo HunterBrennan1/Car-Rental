@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Lato:wght@700;900&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif !important;
+}
 
 body{
-  background-color: #fefefe;
+  background-color: #fff;
 }
 
 button:is(:active).active{
   background-color: #ff4d30;
   color:#fff;
+}
+
+.bg-shape{
+  position: absolute;
+  right:0;
+  top:0;
+  z-index: -1;
 }
 
 
@@ -18,7 +30,7 @@ button:is(:active).active{
 }
 
  nav.navbar{
-  background-color: #fefefe !important;
+  background-color: transparent !important;
   padding-top:30px;
 }
 
@@ -164,6 +176,8 @@ font-weight: bold;
   font-weight: 500;
 }
 
+
+
 .big-span{
   color:#ff4d30;
 }
@@ -217,10 +231,22 @@ color:#fefefe;
 /* car booking section */
 
 .rental-section{
-  margin-top: 250px;
-  margin-bottom: 250px;
+  background-image: url(./assets/img/rentalbgimg.png);
+  background-color: #fff;
+  margin-top: 200px;
+  margin-bottom: 53px;
   margin-left: 150px;
   margin-right: 150px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+  padding: 0;
+  padding-top:50px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:50px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
 }
 
 .car-booking-title{
@@ -288,8 +314,9 @@ color:#fefefe;
 /* //////////////////////////// */
 
 .bubbles-section{
-  /* margin-top:250px; */
+  padding-top: 53px;
   margin-bottom:250px;
+  background-color: #fff;
 }
 
 .bubbles-section-title{
@@ -338,6 +365,10 @@ color:#fefefe;
 /* /////////////////////////////// */
 /* model view section  */
 /* ///////////////////////////////// */
+
+.model-section{
+  background-color: #fff;
+}
 
 .model-view{
   text-align: center;
@@ -469,7 +500,7 @@ color:#fefefe;
 /* /////////////////////////// */
 
 .breakpoint-section{
-  background-color: #000;
+  background-color: #2d2d2d;
   margin-top:250px;
   color:#fff;
   padding:50px;
@@ -493,6 +524,15 @@ color:#fefefe;
 /* //////////////////// */
 /* Package section  */
 /* /////////////////// */
+
+.package-section{
+  background-color: #fff;
+  background-image: url(./assets/img/tirebgimg.png);
+  background-position: -225px 255px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 0 10rem;
+}
 
 .cars-img{
   align-items: center;
@@ -584,7 +624,10 @@ color:#fefefe;
 /* ///////////////////////////// */
 
 .review-section{
-  margin-top:200px;
+  padding-top:200px;
+  padding-bottom:150px;
+  background-color: #f8f8f8;
+  
 }
 
 .review-title-container{
@@ -619,6 +662,9 @@ color:#fefefe;
   padding-left:50px;
   padding-right:50px;
   width:100%;
+  background-color: #fff;
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+  padding: 5.5rem;
 }
 
 .review-container{
@@ -659,7 +705,7 @@ color:#fefefe;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap:5%;
+  gap:3%;
 }
 
 /* ////////////////////////// */
@@ -667,28 +713,37 @@ color:#fefefe;
 /* ///////////////////////// */
 
 .faq-section{
-  margin-top:250px;
+  /* margin-top:250px;
   margin-left:250px;
-  margin-right:250px;
+  margin-right:250px; */
+  background-image: url(./assets/img/minicoop.png);
+    background-position: 0 70%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 10rem 0;
 }
 
 .faq-header{
   text-align: center;
+  /* width:50%; */
 }
 
 .faq-header-title{
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
 }
 
 .faq-header-title2{
-  font-size: 35px;
+  font-size: 42px;
   font-weight: bold;
+  margin-bottom: 17px;
 }
 
 .faq-header-text{
   padding-left: 100px;
   padding-right: 100px;
+  /* width:600px; */
+  /* align-items: center !important; */
 }
 
 .wrapper{
@@ -704,7 +759,8 @@ color:#fefefe;
 .item{
   background-color: #fff;
   /* margin-bottom:5px; */
-  padding:15px;
+  padding:5px;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
   /* height:60px; */
 }
 
@@ -730,7 +786,7 @@ color:#fefefe;
 
 .question-title{
   font-size: 17px;
-  font-weight: bold;
+  font-weight: 600;
   padding:15px;
   padding-left:20px;
   padding-right:20px;
@@ -785,9 +841,16 @@ color:#fefefe;
 /* ///////////////////////// */
 
 .appstore-section{
-  margin-top:250px;
+  padding-top:100px;
+  padding-bottom:100px;
+  background-image: url(./assets/img/phoneapp.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:auto;
   display:flex;
   flex-direction: row;
+  background-color: #f8f8f8;
 }
 
 .phone-img {
@@ -872,6 +935,7 @@ color:#fefefe;
   padding:10px;
   border:none;
   text-align: center;
+  background-color: #f8f8f8;
 }
 
 

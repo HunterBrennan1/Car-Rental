@@ -3,11 +3,15 @@ import React from 'react';
 import RedCar from '../assets/img/red-car-main.png';
 import CheckMark from '../assets/img/verify-verified-check-icon.svg';
 import Arrow from '../assets/img/arrow.svg';
+import BgShape from '../assets/img/bgshape.png';
 
 export const MainPage = () => {
   return (
-    <section>
+    <section className="main-section">
       <Container className="main-container">
+        <div>
+          <img className="bg-shape" src={BgShape}></img>
+        </div>
         <Row className="main-row">
           <Col className="main-info-col">
             <h1 className="main-header-h1">Plan your trip now</h1>
