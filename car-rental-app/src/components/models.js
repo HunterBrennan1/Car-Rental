@@ -42,31 +42,31 @@ function Models() {
                 <table className="model-info-table">
                   <tbody>
                     <tr>
-                      <td className="model-table-cell">Model</td>
+                      <td className="model-table-cell model">Model</td>
                       <td className="model-table-cell">Placeholder</td>
                     </tr>
                     <tr>
-                      <td className="model-table-cell">Make</td>
+                      <td className="model-table-cell make">Make</td>
                       <td className="model-table-cell">Placeholder</td>
                     </tr>
                     <tr>
-                      <td className="model-table-cell">Year</td>
+                      <td className="model-table-cell year">Year</td>
                       <td className="model-table-cell">Placeholder</td>
                     </tr>
                     <tr>
-                      <td className="model-table-cell">Doors</td>
+                      <td className="model-table-cell doors">Doors</td>
                       <td className="model-table-cell">Placeholder</td>
                     </tr>
                     <tr>
-                      <td className="model-table-cell">AC</td>
+                      <td className="model-table-cell ac">AC</td>
                       <td className="model-table-cell">Placeholder</td>
                     </tr>
                     <tr>
-                      <td className="model-table-cell">Transmission</td>
+                      <td className="model-table-cell transmission">Transmission</td>
                       <td className="model-table-cell">Placeholder</td>
                     </tr>
                     <tr>
-                      <td className="model-table-cell">Fuel</td>
+                      <td className="model-table-cell fuel">Fuel</td>
                       <td className="model-table-cell">Placeholder</td>
                     </tr>
                   </tbody>
@@ -80,5 +80,29 @@ function Models() {
     </section>
   )
 }
+
+
+const tabledata = [
+  {
+    car1: "Audi A1 S-Line",
+    model: "model1",
+    make: "make1",
+    year: "year1",
+    doors: "doors1",
+    ac: "ac1",
+    transmission: "trans1",
+    fuel: "fuel1"
+  },
+  {
+    car2: "VW Golf 6",
+    model: "model2",
+    make: "make2",
+    year: "year2",
+    doors: "doors2",
+    ac: "ac2",
+    transmission: "trans2",
+    fuel: "fuel2"
+  }
+]
 
 export default Models;
