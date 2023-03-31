@@ -98,6 +98,16 @@ button:is(:active).active{
 
 .modal-content{
   padding:15px;
+  padding-bottom: 55px;
+  padding-top: 25px;
+}
+
+.modal-title{
+  text-align: center;
+}
+
+.signup-discount{
+  text-align: center;
 }
 
 .modal-login-signup-form{

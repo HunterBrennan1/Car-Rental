@@ -56,7 +56,7 @@ function Signup() {
             <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
           </div>
           <div className='signup-info'>
-            <h2>YOUR CAR RENTAL CLUB <span className='benefits-span'>BENEFITS</span> AWAIT!</h2>
+            <h2 className='modal-title'>YOUR CAR RENTAL CLUB <span className='benefits-span'>BENEFITS</span> AWAIT!</h2>
           </div>
           <div className='signup-discount'>
             <p>Sign up now and get 10% off on select vehicles!</p>
