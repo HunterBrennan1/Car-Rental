@@ -2,8 +2,21 @@ import { Container, Row, Col } from "react-bootstrap";
 import React from 'react';
 import Placeholder from '../assets/img/placeholder.png';
 import AudiA1 from '../assets/img/audia1s.avif';
+import { useState } from "react";
 
-export const Models = () => {
+
+function Models() {
+
+  const [selected, setSelected] = useState(null)
+
+  const toggle = (i) => {
+    if (selected == i) {
+      return setSelected(null)
+    }
+
+    setSelected(i)
+  }
+
   return (
     <section>
       <Container>
@@ -14,7 +27,7 @@ export const Models = () => {
             <p className="model-view model-text">Choose from a variety of our amazing vehicles to rent for your next adventure or buisiness trip</p>
             <div className="model-view-container">
               <div className="model-btn-container">
-                <button className="model-btn">Audi A1 S-Line</button>
+                <button className="model-btn active">Audi A1 S-Line</button>
                 <button className="model-btn">VW Golf 6</button>
                 <button className="model-btn">Toyota Camry</button>
                 <button className="model-btn">BMW 320 ModernLine</button>

@@ -4,6 +4,11 @@ body{
   background-color: #fefefe;
 }
 
+button:is(:active).active{
+  background-color: #ef233c;
+  color:#fff;
+}
+
 
 .logo-dark{
   font-weight: bold;
