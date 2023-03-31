@@ -1309,10 +1309,11 @@ color:#fefefe;
   .about-main-wrapper{
     flex-direction: column;
     text-align: center;
+    padding-bottom: 100px;
   }
 
   .about-img{
-    padding-left:25px;
+    padding-left:0px;
     /* padding-right:25px; */
     width:90%;
     align-items: center !important;
@@ -1326,6 +1327,25 @@ color:#fefefe;
 
   .about-banner{
     margin-top:0px;
+  }
+
+  .about-main-text-title1{
+    font-size:22px ;
+  }
+
+  .about-main-text-title2{
+    font-size:42px ;
+  }
+
+  .about-main-text1{
+    margin-top:20px;
+    color:gray;
+  }
+
+  .text-content{
+    flex-direction: column;
+    padding-top:30px;
+    text-align: center;
   }
 
 }

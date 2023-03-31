@@ -41,15 +41,15 @@ export const About = () => {
                   <div className="about-block-info">
                     <img className="about-block-img" src={CarIconAbout}></img>
                     <div className="about-block-text">
-                      <h3 className="about-block-text-1">20</h3>
-                      <p className="about-block-text-2">Car<br></br>Types</p>
+                      <h3 className="about-block-text-1">85</h3>
+                      <p className="about-block-text-2">Rental<br></br>Outlets</p>
                     </div>
                   </div>
                   <div className="about-block-info">
                     <img className="about-block-img garage" src={GarageIcon}></img>
                     <div className="about-block-text">
-                      <h3 className="about-block-text-1">20</h3>
-                      <p className="about-block-text-2">Car<br></br>Types</p>
+                      <h3 className="about-block-text-1">75</h3>
+                      <p className="about-block-text-2">Repair<br></br>Shop</p>
                     </div>
                   </div>
                 </div>
