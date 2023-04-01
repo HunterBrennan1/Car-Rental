@@ -26,6 +26,26 @@ export const Contact = () => {
             <a><img src={MailIcon}></img> carrental@carmail.com</a>
             <a><img src={MarkerIcon}></img> Toms River, New Jersey</a>
           </div>
+          <div className="contact-div__form">
+            <form>
+              <label>Full Name
+                <b>*</b>
+              </label>
+              <input type="text" placeholder="E.g: Joe Shmoe"></input>
+              <label>
+                Email
+                <b>*</b>
+              </label>
+              <input type="email" placeholder="youremail@example.com"></input>
+              <label>Tell us about it
+                <b>*</b>
+              </label>
+              <textarea placeholder="Write Here..."></textarea>
+              <button type="submit">
+                <a><img src={MailIcon}></img> Send Message</a>
+              </button>
+            </form>
+          </div>
         </div>
       </Container>
     </section>
