@@ -57,8 +57,6 @@ export const About = () => {
               </div>
             </div>
             <ThreeBubbles />
-
-
           </Col>
         </Row>
       </Container>
