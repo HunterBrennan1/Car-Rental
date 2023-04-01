@@ -1101,6 +1101,11 @@ color:#fefefe;
 /* MODEL ROUTE SECTION  */
 /* //////////////////////////// */
 
+.models-section-wrapper{
+  align-items: center;
+  text-align: center;
+}
+
 .star-icon{
   width:1.4rem;
 }
@@ -1112,10 +1117,10 @@ color:#fefefe;
     gap: 3rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 10rem 0;
     text-align: center;
-    width: 110rem;
+    /* width: 350px; */
 }
 
 .models-div__box{
@@ -1123,7 +1128,7 @@ color:#fefefe;
     border-radius: 0.3rem;
     display: flex;
     flex-direction: column;
-    width: 35rem;
+    /* width: 350px; */
 }
 
 .models-div__box__img{
@@ -1133,8 +1138,10 @@ color:#fefefe;
 }
 
 .models-div__box__img img{
-  height: 27rem;
-  width: 100%;
+  height: 270px;
+  width: 348px;
+  margin-top:15px;
+  border-radius: 10px;
 }
 
 .models-div__box__descr{
@@ -1208,6 +1215,7 @@ color:#fefefe;
     margin: 2rem auto;
     padding-bottom: 2.5rem;
     row-gap: 2rem;
+    margin-top:0px !important;
 }
 
 .models-div__box__descr__name-price__btn{
@@ -1231,7 +1239,26 @@ color:#fefefe;
 
 /* mobile collapsed */
 
+@media screen and (max-width: 1150px){
+
+.models-div {
+    grid-template-columns: 1fr 1fr;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin-right:0px !important;
+}
+}
+
 @media screen and (max-width:990px){
+
+  .models-div {
+    grid-template-columns: 1fr;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+  }
+  
   .red-car-main-img{
     display:none;
   }
