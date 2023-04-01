@@ -1512,8 +1512,25 @@ color:#fefefe;
     margin-top:0px;
   }
 
+  .about-block-text{
+    flex-direction: column;
+  }
+
+  .about-block-img{
+    margin-left: 10px;
+  }
+
+  .about-block-img.garage{
+    margin-left: 20px;
+  }
+
+  .bubble{
+    margin-top:50px
+  }
+
   .about-main-text-title1{
     font-size:22px ;
+    margin-top:50px;
   }
 
   .about-main-text-title2{
