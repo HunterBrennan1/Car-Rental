@@ -74,7 +74,7 @@ export const VehicleModels = () => {
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
-                    <p>Audi A1</p>
+                    <p>Golf 6</p>
                     <div className='models-div-star__icon'>
                       <img className='star-icon' src={Star}></img>
                       <img className='star-icon' src={Star}></img>
@@ -84,7 +84,7 @@ export const VehicleModels = () => {
                     </div>
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
-                    <h4>$45</h4>
+                    <h4>$37</h4>
                     <p>per day</p>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export const VehicleModels = () => {
                   <div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
-                      <p className='models-descr-text'>Audi</p>
+                      <p className='models-descr-text'>VW</p>
                     </div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
@@ -124,7 +124,7 @@ export const VehicleModels = () => {
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
-                    <p>Audi A1</p>
+                    <p>Toyota</p>
                     <div className='models-div-star__icon'>
                       <img className='star-icon' src={Star}></img>
                       <img className='star-icon' src={Star}></img>
@@ -134,7 +134,7 @@ export const VehicleModels = () => {
                     </div>
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
-                    <h4>$45</h4>
+                    <h4>$30</h4>
                     <p>per day</p>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export const VehicleModels = () => {
                   <div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
-                      <p className='models-descr-text'>Audi</p>
+                      <p className='models-descr-text'>Camry</p>
                     </div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
@@ -174,7 +174,7 @@ export const VehicleModels = () => {
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
-                    <p>Audi A1</p>
+                    <p>BMW 320</p>
                     <div className='models-div-star__icon'>
                       <img className='star-icon' src={Star}></img>
                       <img className='star-icon' src={Star}></img>
@@ -184,7 +184,7 @@ export const VehicleModels = () => {
                     </div>
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
-                    <h4>$45</h4>
+                    <h4>$35</h4>
                     <p>per day</p>
                   </div>
                 </div>
@@ -192,7 +192,7 @@ export const VehicleModels = () => {
                   <div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
-                      <p className='models-descr-text'>Audi</p>
+                      <p className='models-descr-text'>Modern</p>
                     </div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
@@ -224,7 +224,7 @@ export const VehicleModels = () => {
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
-                    <p>Audi A1</p>
+                    <p>Mercedes</p>
                     <div className='models-div-star__icon'>
                       <img className='star-icon' src={Star}></img>
                       <img className='star-icon' src={Star}></img>
@@ -234,7 +234,7 @@ export const VehicleModels = () => {
                     </div>
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
-                    <h4>$45</h4>
+                    <h4>$50</h4>
                     <p>per day</p>
                   </div>
                 </div>
@@ -242,7 +242,7 @@ export const VehicleModels = () => {
                   <div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
-                      <p className='models-descr-text'>Audi</p>
+                      <p className='models-descr-text'>Benz GlK</p>
                     </div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
@@ -274,7 +274,7 @@ export const VehicleModels = () => {
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
-                    <p>Audi A1</p>
+                    <p>VW Passat</p>
                     <div className='models-div-star__icon'>
                       <img className='star-icon' src={Star}></img>
                       <img className='star-icon' src={Star}></img>
@@ -284,7 +284,7 @@ export const VehicleModels = () => {
                     </div>
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
-                    <h4>$45</h4>
+                    <h4>$25</h4>
                     <p>per day</p>
                   </div>
                 </div>
@@ -292,7 +292,7 @@ export const VehicleModels = () => {
                   <div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
-                      <p className='models-descr-text'>Audi</p>
+                      <p className='models-descr-text'>CC</p>
                     </div>
                     <div className="model-div__descr__box">
                       <img className='models-car-icon' src={ModelsCarIcon}></img>
