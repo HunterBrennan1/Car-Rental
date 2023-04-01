@@ -8,6 +8,7 @@ import GarageIcon from '../assets/img/garageicon.png';
 import PhoneIcon from '../assets/img/iconmonstr-phone-1.svg'
 import ThreeBubbles from "./threebubbles";
 import Footer from "./footer";
+import BookBanner from "./bookbanner";
 
 
 
@@ -61,17 +62,7 @@ export const About = () => {
           </Col>
         </Row>
       </Container>
-      <div className="about-banner">
-        <Container>
-          <div className="text-content">
-            <h2 className="about-break-text">Book a car by getting in touch with us</h2>
-            <span>
-              <i className="fa-solid fa-phone phone-number"></i>
-              <h3 className="about-number">(123) 456-7890</h3>
-            </span>
-          </div>
-        </Container>
-      </div>
+      <BookBanner />
       <Footer />
     </section>
   )
