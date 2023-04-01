@@ -14,7 +14,7 @@ export const NavBar = () => {
       <Container>
         <div className='logo-container'>
           <img className='car-logo' src={CarLogo}></img>
-          <Navbar.Brand href="#home"><span className='logo-dark'>Car</span> Rental</Navbar.Brand>
+          <Navbar.Brand href="#home"><span className='logo-dark'>CAR</span> Rental</Navbar.Brand>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

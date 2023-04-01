@@ -16,6 +16,15 @@ import Footer from './footer';
 export const VehicleModels = () => {
   return (
     <section className='models-section-wrapper'>
+      <section className="hero-pages">
+        <div className="hero-pages__overlay"></div>
+        <Container>
+          <div className="hero-pages__text">
+            <h3>Vehicle Models</h3>
+            <p>Home / Vehicle Models</p>
+          </div>
+        </Container>
+      </section>
       <Container>
         <div className='models-div'>
           <div className='models-div__box'>

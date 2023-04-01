@@ -15,9 +15,15 @@ import BookBanner from "./bookbanner";
 export const About = () => {
   return (
     <section>
-      <div className='about-hero-section'>
-        <div className="hero-overlay"></div>
-      </div>
+      <section className="hero-pages">
+        <div className="hero-pages__overlay"></div>
+        <Container>
+          <div className="hero-pages__text">
+            <h3>About</h3>
+            <p>Home / About</p>
+          </div>
+        </Container>
+      </section>
       <Container className="hero-container">
         <Row>
           <Col>

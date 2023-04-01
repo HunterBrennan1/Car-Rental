@@ -35,6 +35,9 @@ button:is(:active).active{
   align-items: center !important;
   justify-content: space-between;
   z-index: 99999;
+  position: absolute;
+  top:0;
+  width:100%;
 }
 
 .basic-navbar-nav{
@@ -169,7 +172,7 @@ font-weight: bold;
 }
 
 .main-row{
-  margin-top:150px;
+  margin-top:250px;
 }
 
 .main-info-col{
@@ -968,33 +971,42 @@ color:#fefefe;
 /* ABOUT ROUTE SECTION  */
 /* //////////////////////////// */
 
- /* .about-hero-section{
+ .hero-pages{
   background-image: url(./assets/img/about-hero-img.png);
-
+  background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40%;
-    position: absolute;
- 
+    height: 400px;
+    position: relative;
     width: 100%;
-    opacity: 20%;
- }  */
+ }
+
+ .hero-pages__overlay{
+  background-color: hsla(0,0%,100%,.92);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+ }
+
+ .hero-pages__text{
+  color: #010103;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+ }
+
+ .hero-pages__text h3{
+  font-size: 36px;
+  font-weight: bold;
+ }
 
 
-.about-hero-text{
-  /* z-index: 100; */
-  /* padding-top:0%; */
-  color:#000;
-  vertical-align: middle;
-  align-items: center;
-}
-
-.hero-container{
-  z-index: 10;
-  height:100%;
-  text-align: left;
-  margin-top:100px;
-}
 
 .about-main-wrapper{
   display: flex;
@@ -1002,6 +1014,7 @@ color:#fefefe;
   justify-content: space-between;
   gap:5%;
   align-items: center;
+  margin-top:100px;
   padding-bottom: 153px;
   /* width:80%; */
 }
@@ -1103,7 +1116,6 @@ color:#fefefe;
 
 .models-section-wrapper{
   align-items: center;
-  text-align: center;
 }
 
 .star-icon{
@@ -1259,6 +1271,10 @@ color:#fefefe;
 }
 
 @media screen and (max-width:990px){
+
+  .navbar-collapse{
+    background-color: #fefefe;
+  }
 
   .models-div {
     grid-template-columns: 1fr;
