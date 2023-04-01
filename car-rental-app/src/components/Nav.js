@@ -23,7 +23,6 @@ export const NavBar = () => {
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/vehiclemodels">Vehicle Models</Nav.Link>
             <Nav.Link href="/testimonials">Testimonials</Nav.Link>
-            <Nav.Link href="/team">Our Team</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <div className='user-login-container'>
