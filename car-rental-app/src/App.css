@@ -1620,4 +1620,9 @@ color:#fefefe;
     text-align: center;
   }
 
+  .contact-div{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
 }
