@@ -31,16 +31,16 @@ export const Contact = () => {
           <div className="contact-div__form">
             <form>
               <label>Full Name
-                <b>*</b>
+                <b> *</b>
               </label>
               <input type="text" placeholder="E.g: Joe Shmoe"></input>
               <label>
                 Email
-                <b>*</b>
+                <b> *</b>
               </label>
               <input type="email" placeholder="youremail@example.com"></input>
               <label>Tell us about it
-                <b>*</b>
+                <b> *</b>
               </label>
               <textarea placeholder="Write Here..."></textarea>
               <button type="submit">
