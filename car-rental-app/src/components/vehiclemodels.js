@@ -4,7 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Star from '../assets/img/staricon.svg'
 import "bootstrap/dist/css/bootstrap.min.css";
 import AudiA1Model from '../assets/img/audia1modelimg.png'
+import GolfModel from '../assets/img/golf6modelimg.png'
+import ToyotaModel from '../assets/img/toyotamodelimg.png'
+import BmwModel from '../assets/img/bmw320modelimg.png'
+import MercedesModel from '../assets/img/mercedesmodelimg.png'
+import PassatModel from '../assets/img/passatmodelimg.png'
 import ModelsCarIcon from '../assets/img/modelscaricon.svg'
+import BookBanner from './bookbanner';
+import Footer from './footer';
 
 export const VehicleModels = () => {
   return (
@@ -63,7 +70,7 @@ export const VehicleModels = () => {
           </div>
           <div className='models-div__box'>
             <div className='models-div__box__img'>
-              <img src={AudiA1Model}></img>
+              <img src={GolfModel}></img>
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
@@ -113,7 +120,7 @@ export const VehicleModels = () => {
           </div>
           <div className='models-div__box'>
             <div className='models-div__box__img'>
-              <img src={AudiA1Model}></img>
+              <img src={ToyotaModel}></img>
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
@@ -163,7 +170,7 @@ export const VehicleModels = () => {
           </div>
           <div className='models-div__box'>
             <div className='models-div__box__img'>
-              <img src={AudiA1Model}></img>
+              <img src={BmwModel}></img>
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
@@ -213,7 +220,7 @@ export const VehicleModels = () => {
           </div>
           <div className='models-div__box'>
             <div className='models-div__box__img'>
-              <img src={AudiA1Model}></img>
+              <img src={MercedesModel}></img>
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
@@ -263,7 +270,7 @@ export const VehicleModels = () => {
           </div>
           <div className='models-div__box'>
             <div className='models-div__box__img'>
-              <img src={AudiA1Model}></img>
+              <img src={PassatModel}></img>
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
@@ -314,7 +321,10 @@ export const VehicleModels = () => {
           <div></div>
         </div>
       </Container>
+      <BookBanner />
+      <Footer />
     </section>
+
   )
 }
 

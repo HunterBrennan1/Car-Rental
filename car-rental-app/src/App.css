@@ -1110,17 +1110,21 @@ color:#fefefe;
   width:1.4rem;
 }
 
+
+
 .models-div{
   grid-gap: 3rem;
     align-items: center;
     display: grid;
-    gap: 3rem;
+    gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    /* margin: 0 auto; */
+    /* margin: auto; */
     padding: 10rem 0;
-    text-align: center;
+    text-align: center !important;
     /* width: 350px; */
+    padding-bottom: 0px;
+    margin-right: 0px !important;
 }
 
 .models-div__box{
@@ -1128,7 +1132,9 @@ color:#fefefe;
     border-radius: 0.3rem;
     display: flex;
     flex-direction: column;
-    /* width: 350px; */
+    width: 100%;
+    align-items: center;
+    /* margin:30px; */
 }
 
 .models-div__box__img{
@@ -1139,16 +1145,16 @@ color:#fefefe;
 
 .models-div__box__img img{
   height: 270px;
-  width: 348px;
-  margin-top:15px;
-  border-radius: 10px;
+  width: 100%;
+  /* margin-top:15px; */
+  /* border-radius: 10px; */
 }
 
 .models-div__box__descr{
   color: #010103;
     display: flex;
     flex-direction: column;
-    padding: 2rem 3rem;
+    padding: 20px;
 }
 
 .models-div__box__descr__name-price{
@@ -1185,6 +1191,7 @@ color:#fefefe;
 .models-car-icon{
   width:2.0rem !important;
   height:2.0rem !important;
+  margin-top:0px !important;
 }
 
 .model-div__descr__box{
@@ -1221,17 +1228,18 @@ color:#fefefe;
 .models-div__box__descr__name-price__btn{
   background-color: #ff4d30;
     border: 2px solid #ff4d30;
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
     box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
     cursor: pointer;
     font-size: 1.8rem;
-    padding: 1.8rem 3rem;
+    padding: 10px;
     transition: all .3s;
 }
 
 .models-div__box__descr__name-price__btn a{
     color: #fff;
     font-weight: 700;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -1258,7 +1266,7 @@ color:#fefefe;
     width: -webkit-fit-content;
     width: fit-content;
   }
-  
+
   .red-car-main-img{
     display:none;
   }
