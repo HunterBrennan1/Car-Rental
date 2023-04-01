@@ -3,6 +3,8 @@ import React from 'react';
 import PhoneIcon from "../assets/img/iconmonstr-phone-1.svg"
 import MailIcon from "../assets/img/iconmonstr-email-3.svg"
 import MarkerIcon from "../assets/img/marker-icon.svg"
+import BookBanner from "./bookbanner";
+import Footer from "./footer";
 
 
 export const Contact = () => {
@@ -48,6 +50,8 @@ export const Contact = () => {
           </div>
         </div>
       </Container>
+      <BookBanner />
+      <Footer />
     </section>
   )
 }
