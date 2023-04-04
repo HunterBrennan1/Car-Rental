@@ -1106,7 +1106,7 @@ color:#fefefe;
 
 .about-number{
   color:#ff4d30;
-  font-size: 31px;
+  font-size: 31.5px;
   font-weight: bold;
 }
 
@@ -1131,10 +1131,8 @@ color:#fefefe;
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    /* margin: auto; */
     padding: 10rem 0;
     text-align: center !important;
-    /* width: 350px; */
     padding-bottom: 0px;
     margin-right: 0px !important;
 }
@@ -1146,7 +1144,6 @@ color:#fefefe;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    /* margin:30px; */
 }
 
 .models-div__box__img{
@@ -1158,8 +1155,6 @@ color:#fefefe;
 .models-div__box__img img{
   height: 270px;
   width: 100%;
-  /* margin-top:15px; */
-  /* border-radius: 10px; */
 }
 
 .models-div__box__descr{
@@ -1217,7 +1212,6 @@ color:#fefefe;
 
 .models-descr-text{
   margin-top:3px;
-  /* padding-left:10px; */
   font-size: 18px;
   color:gray;
 }
@@ -1255,9 +1249,11 @@ color:#fefefe;
     text-decoration: none;
 }
 
+
 /* //////////////////////////// */
 /* CONTACT ROUTE SECTION  */
 /* //////////////////////////// */
+
 
 .contact-div{
   grid-gap: 3rem;
