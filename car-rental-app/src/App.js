@@ -17,19 +17,21 @@ import About from './components/about';
 import VehicleModels from "./components/vehiclemodels";
 import Testimonials from "./components/testimonials";
 import Contact from "./components/contact";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        {/* <NavBar /> */}
-        <Route path='/home' element={<Home />}></Route>
-        <Route path='/about' element={<About />}></Route>
-        <Route path='/vehiclemodels' element={<VehicleModels />}></Route>
-        <Route path='/testimonials' element={<Testimonials />}></Route>
-        <Route path='/contact' element={<Contact />}></Route>
-      </Routes>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/home' element={<Home />}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/vehiclemodels' element={<VehicleModels />}></Route>
+          <Route path='/testimonials' element={<Testimonials />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
