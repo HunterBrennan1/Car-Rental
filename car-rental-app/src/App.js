@@ -17,7 +17,7 @@ import About from './components/about';
 import VehicleModels from "./components/vehiclemodels";
 import Testimonials from "./components/testimonials";
 import Contact from "./components/contact";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {
   return (
