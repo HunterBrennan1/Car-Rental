@@ -21,20 +21,13 @@ import Contact from "./components/contact";
 
 function App() {
   return (
-    <section>
-      <NavBar />
-
-      <div className="App">
-        <Routes>
-          <Route path='/home' element={<Home />}></Route>
-          <Route path='/about' element={<About />}></Route>
-          <Route path='/vehiclemodels' element={<VehicleModels />}></Route>
-          <Route path='/testimonials' element={<Testimonials />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-        </Routes>
-      </div>
-    </section>
-
+    <Routes>
+      <Route path='/' element={<Home />}></Route>
+      <Route path='/about' element={<About />}></Route>
+      <Route path='/vehiclemodels' element={<VehicleModels />}></Route>
+      <Route path='/testimonials' element={<Testimonials />}></Route>
+      <Route path='/contact' element={<Contact />}></Route>
+    </Routes>
   );
 }
 

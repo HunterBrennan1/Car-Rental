@@ -6,7 +6,6 @@ import React from 'react';
 import CarLogo from '../assets/img/car-logo.svg';
 import Signup from './signup.js';
 import Login from './SignIn.js';
-import { Link } from "react-router-dom"
 
 
 export const NavBar = () => {
@@ -20,7 +19,7 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link><Link to="/home">Home</Link></Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/vehiclemodels">Vehicle Models</Nav.Link>
             <Nav.Link href="/testimonials">Testimonials</Nav.Link>
