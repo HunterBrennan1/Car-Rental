@@ -10,10 +10,12 @@ import Reviews from "./reviews";
 import FAQ from "./faq";
 import AppStore from "./mobile-app";
 import Footer from "./footer";
+import NavBar from './Nav';
 
 export const Home = () => {
   return (
     <div>
+      <NavBar />
       <MainPage />
       <Rental />
       <ThreeBubbles />

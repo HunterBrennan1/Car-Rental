@@ -5,11 +5,13 @@ import MailIcon from "../assets/img/iconmonstr-email-3.svg"
 import MarkerIcon from "../assets/img/marker-icon.svg"
 import BookBanner from "./bookbanner";
 import Footer from "./footer";
+import NavBar from "./Nav";
 
 
 export const Contact = () => {
   return (
     <section>
+      <NavBar />
       <section className="hero-pages">
         <div className="hero-pages__overlay"></div>
         <Container>

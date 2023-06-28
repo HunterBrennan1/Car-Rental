@@ -9,12 +9,14 @@ import PhoneIcon from '../assets/img/iconmonstr-phone-1.svg'
 import ThreeBubbles from "./threebubbles";
 import Footer from "./footer";
 import BookBanner from "./bookbanner";
+import NavBar from './Nav';
 
 
 
 export const About = () => {
   return (
     <section>
+      <NavBar />
       <section className="hero-pages">
         <div className="hero-pages__overlay"></div>
         <Container>

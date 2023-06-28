@@ -12,10 +12,12 @@ import PassatModel from '../assets/img/passatmodelimg.png'
 import ModelsCarIcon from '../assets/img/modelscaricon.svg'
 import BookBanner from './bookbanner';
 import Footer from './footer';
+import NavBar from './Nav';
 
 export const VehicleModels = () => {
   return (
     <section className='models-section-wrapper'>
+      <NavBar />
       <section className="hero-pages">
         <div className="hero-pages__overlay"></div>
         <Container>
