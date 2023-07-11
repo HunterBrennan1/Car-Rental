@@ -31,7 +31,11 @@ export const NavBar = () => {
           </div>
         </Navbar.Collapse>
       </Container>
+      <div>
+        <a className="back_to_top_btn" href="#"><img className="gotopbtn" src={UpArrow}></img></a>
+      </div>
     </Navbar>
+
   );
 }
 
