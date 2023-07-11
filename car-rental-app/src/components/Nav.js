@@ -6,6 +6,7 @@ import React from 'react';
 import CarLogo from '../assets/img/car-logo.svg';
 import Signup from './signup.js';
 import Login from './SignIn.js';
+import UpArrow from '../assets/img/up-arrow-4.png';
 
 
 export const NavBar = () => {
