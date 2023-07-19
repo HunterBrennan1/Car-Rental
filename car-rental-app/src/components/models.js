@@ -8,6 +8,8 @@ import { useState } from "react";
 function Models() {
 
   const [selected, setSelected] = useState(null)
+  const [isActive, setIsActive] = useState(true);
+
 
   const toggle = (i) => {
     if (selected == i) {
@@ -27,7 +29,7 @@ function Models() {
             <p className="model-view model-text">Choose from a variety of our amazing vehicles to rent for your next adventure or buisiness trip</p>
             <div className="model-view-container">
               <div className="model-btn-container">
-                <button className="model-btn active">Audi A1 S-Line</button>
+                <button className={isActive ? 'active' : ''}>Audi A1 S-Line</button>
                 <button className="model-btn">VW Golf 6</button>
                 <button className="model-btn">Toyota Camry</button>
                 <button className="model-btn">BMW 320 ModernLine</button>

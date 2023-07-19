@@ -8,6 +8,7 @@ import MiniCoop from "../assets/img/minicoop.png"
 function FAQ() {
 
   const [selected, setSelected] = useState(null)
+  const [isActive, setIsActive] = useState(true);
 
   const toggle = (i) => {
     if (selected == i) {
@@ -32,7 +33,7 @@ function FAQ() {
                 {data.map((item, i) => (
                   <div className="item">
                     <div className="title" onClick={() => toggle(i)}>
-                      <button className="question-title">{item.question}<img src={Arrow} className="arrow-img"></img></button>
+                      <button className="question-title ">{item.question}<img src={Arrow} className="arrow-img"></img></button>
 
                     </div>
                     <div className={selected === i ? 'content show' : 'content'}>{item.answer}</div>
